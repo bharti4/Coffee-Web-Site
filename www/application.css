@@ -1,0 +1,290 @@
+/* your styles go in this file */
+
+@media(min-width:750px)
+{
+    .header-container
+    {
+        display: flex;  
+        justify-content: space-between;
+    }
+    ul{
+        display:flex
+    }
+    .header-container li , .footer-container li
+    {
+      display: inline-block;
+      margin: 10px
+    } 
+    .footer-container
+    {
+        display:flex;
+        margin-top:10px;
+        justify-content: space-between;
+    }
+    .footer-container ul
+    {
+        margin-left:40px;
+    }
+    .footer-container-logo-box1
+    {
+        width:30%
+    }
+    .social-media-box2
+    {
+        width:50%
+    }
+
+
+/* section container media queries*/
+    .section-container
+    {
+        display: flex;
+        justify-content: space-around;
+        margin-left:40px;
+        margin-right:40px;
+    }
+    .section-block
+    {
+        width:25%;
+    }
+    .open-icon-container
+    {
+        display : flex;
+        margin-left:70px;
+        padding-left:30px
+    }
+    /* Timing vanue and other information container*/
+    .info-container
+    {
+        display:grid;
+        grid-template-columns: 50% 50%;
+        gap:1em;
+    }
+
+   /*--- about page --- */
+    .about-containter
+    {
+        display:grid;
+        grid-template-columns: 50% 50%;
+        row-gap: 4em;
+    }
+    .coffeeImg
+    {
+    text-align : right;
+   
+    }
+    /*------ contact us page ----*/
+    .address
+    {
+        text-align: left;
+        width:80%
+        /*align-items: left;
+        margin:0px;
+        padding-left:300px;  */
+    }
+   
+    .contact-us
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        /* width: 60%; */
+    }
+   
+    
+} /*end of media query*/
+
+
+
+.footer-container p
+{
+    color:white;
+    font-size:  14px; 
+    margin:0px
+}
+.social-media-logo
+{
+    max-width:20px;
+    height:20px;
+    margin:0px
+}
+.logo-light-box1 
+{
+    max-width: 270px;
+    height : 60px;
+}
+
+body{
+    margin:0px;
+    background-color:whitesmoke;
+}
+
+a
+{
+    color:white;
+    text-decoration: none;
+}
+header a:hover
+{
+  background-color: rgb(243, 232, 232);    
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+header 
+{
+  background-color: lightslategray;
+  margin: 0px;
+  padding: 20px 10px 10px ;
+  
+}
+footer
+{
+  background-color: lightslategray;
+  margin: 0px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.header-container img 
+{
+    max-width: 150px;
+    height : 50px;
+    margin-left:10px;
+}
+
+h1 , h2 , h3 ,h4, h5, p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#3a3838;
+    line-height: 1.6 
+}
+
+.container
+{
+   text-align: center;
+   padding:0.8em 1.2em;
+   
+}       
+h1
+{
+    margin : 20px;
+}
+p
+{
+    font-size: x-large;
+}
+.address p
+{
+    font-size: medium;
+}
+.image-mr_coffee_room
+{
+    height:500px;
+    width:90%
+}
+.logo-mrcoffee 
+{
+    background-image: url('./assets/logo_mrcoffee.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;  
+	height:180px;
+    width:180px;
+    /* display background image - center*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.section-container img
+{
+    height:100px;
+    width:100px; 
+    padding-top: 30px;
+}
+.section-block
+{
+    
+     background-color: rgba(168, 171, 177, 0.705);
+     display:inline-block;
+     padding :10px 20px 20px;
+     margin:40px 20px 20px;
+}
+.section-block p ,.section-block h3 
+{
+    color: white;
+}
+.section-block h5
+{
+    color: whitesmoke;
+}
+
+.btnlook-findmore
+{
+    background-color: lightslategray;
+    border-radius: 10;
+    width: 20%;
+    display:block;
+    padding:15px;
+    margin : 3% auto 7%;
+    color:white;
+    font-size:1.8vw;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.open-icon-container img
+{
+    width: 100px;
+    height : 100px;
+}
+.open-icon-container p
+{
+    padding-top: 30px;
+    margin-left:30px;
+    font-weight: bold;
+}
+
+
+/*for about.html*/
+.about-containter
+{
+    text-align: left;
+    margin:40px 60px 80px 30px;
+    font-family: 'Noto Sans', sans-serif;
+        
+}
+.about-containter img
+{
+     width: 80%;
+}
+
+
+.about-containter p{
+    font-size: 20px;  
+
+}
+.text-about
+{
+    /* /vertical-align: middle; */
+    margin-top: auto;
+    margin-bottom: auto
+}
+.about-containter h1{
+    margin:0px  
+}
+/*contact-us page*/
+.map-image
+{
+    width:100%
+} 
+
